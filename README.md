@@ -29,5 +29,7 @@ page1 <- page1 %>%
 
 For text analysis we also used MS Excel tool for data cleaning. 
 
+For the diffrent studies based on the same text dataset, initially we did two studies. 1) 
+
 
 
