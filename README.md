@@ -18,8 +18,9 @@ For the study, we specifically only chose Artiles related to the COVID19 topic -
 
 - [Text Mining](#text-mining)
 - [Study Approach](#study-approach)
-- []
-
+- [Study 1](#study-1)
+- [Study 2](#study-2)
+- [Study 3](#study-3)
 
 
 <br>
@@ -46,6 +47,33 @@ For text analysis we also used MS Excel tool for data cleaning.
 
 ## Study Approach
 
+In the project, we did 3 studies, 
+- 1. Sentiment Analysis and Term Frequency of all the articles in a given period.
+- 2. Term Frequency of all articles with clear text in a given period.
+- 3. Author and his/her particular article Sentiment Analysis and Term Frequency analysis. 
 
+Before the study, we also completed the necessary steps, on cleaning the text and converting the data into data frames. etc.. 
+
+```
+# Load - Saved Pages Articles 
+
+# Collection of Best Articles from Project Syndicate Website on COVID 19 TOPIC 
+# Collection of Articles are from 1st April to 14th May tie frame only. 
+
+All = read.csv('Page_all.csv')
+View(All)
+
+# Seperat Author NAmes and Date of the Articles - Extract using Excel
+
+date = read.csv('Author_Names.csv')
+
+All = cbind(All, date)
+
+```
+
+<br>
+
+## Study 1
+#### Sentiment Analysis and Term Frequency of all the articles. 
 
 
