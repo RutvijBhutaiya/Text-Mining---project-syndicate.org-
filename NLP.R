@@ -176,7 +176,7 @@ library(dplyr)
 select_name = filter(All, Number == 22)
 
 
-dfm_1 = dfm(as.character(select_name), 
+dfm_a1 = dfm(as.character(select_name), 
             remove = c(",", ".", '-', '"', '/', ';', "ps", ':',
                        "subscribe", 'now', 'getty', 'images', 'via', '(', ')', '%', '?', '$', '&', '5', '17', '15',
                        remove_numbers = TRUE, 
@@ -184,9 +184,9 @@ dfm_1 = dfm(as.character(select_name),
                        stem = TRUE,
                        remove_symbols = TRUE, stopwords("english")))
 
-View(dfm_1)
+View(dfm_a1)
 
-topfeatures(dfm_1, 20)
+topfeatures(dfm_a1, 20)
 
 
 ## Author and Article Sentiment 
@@ -197,5 +197,43 @@ author_senti = get_nrc_sentiment(select_name$Articles)
 barplot(sort(colSums(prop.table(author_senti[, 1:10]))), 
         cex.names = 0.9, 
         las = 1, 
+        main = "Author & Article - Sentiment", xlab="Sentiment Type", col = 'coral')
+
+
+
+
+################################
+
+# Author 2
+
+select_name2 = filter(All, Number == 55)
+
+
+dfm_a2 = dfm(as.character(select_name2), 
+            remove = c(",", ".", '-', '"', '/', ';', "ps", ':',
+                       "subscribe", 'now', 'getty', 'images', 'via', '(', ')', '%', '?', '$', '&', '5', '17', '15',
+                       remove_numbers = TRUE, 
+                       remove_punct = TRUE,
+                       stem = TRUE,
+                       remove_symbols = TRUE, stopwords("english")))
+
+View(dfm_a2)
+
+topfeatures(dfm_a2, 20)
+
+
+## Author and Article Sentiment 
+
+author_senti2 = get_nrc_sentiment(select_name2$Articles)
+
+
+barplot(sort(colSums(prop.table(author_senti2[, 1:10]))), 
+        cex.names = 0.9, 
+        las = 1, 
         main = "Author & Article - Sentiment", xlab="Sentiment Type", col = 'seagreen')
 
+
+
+#########
+
+#########
