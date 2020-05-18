@@ -13,6 +13,19 @@ For the study, we specifically only chose Artiles related to the COVID19 topic -
 
 <br>
 
+
+## Table of Content
+
+- [Text Mining](#text-mining)
+- [Study Approach](#study-approach)
+- []
+
+
+
+<br>
+
+## Text Mining
+
 Due to the limited time - we studied articles from 1st April 2020 to 14th May 2020. And which also counts 91 articles. 
 
 We successfully, did web scraping, with the help of 'rvest' package in R Studio. Full code - [Click Here](https://github.com/RutvijBhutaiya/Text-Mining-project-syndicate.org/blob/master/Pages.R)
@@ -29,7 +42,10 @@ page1 <- page1 %>%
 
 For text analysis we also used MS Excel tool for data cleaning. 
 
-For the diffrent studies based on the same text dataset, initially we did two studies. 1) 
+<br>
+
+## Study Approach
+
 
 
 
