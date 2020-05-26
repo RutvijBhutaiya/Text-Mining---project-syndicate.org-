@@ -194,5 +194,29 @@ This study tells, authors uncertanity on Covid vaccine and economy consequences 
 ## Study 3
 #### Author and his/her particular article Sentiment Analysis and Term Frequency analysis
 
+In this study we analyzed individual articles for two authors and did the term frequency and sentiment analysis. 
+
+First we did an analysis on Kaushik Basu's Article which he published on PS - May 6th, 2020. The second analysis we did on Andrew Scott's article - April 22nd, 2020. 
+
+Kaushik Basu's term frequency is 
+
+```> topfeatures(dfm_a1, 20)
+ covid-19    people      risk     risks      even        us      many    africa      asia      must     world 
+       15        12         8         6         6         6         6         6         6         6         5 
+countries      much    number      data       one       far     south     times  pandemic 
+        5         5         5         5         5         5         5         4         4 
+```
+
+And Andrew Scoot's term frequency is 
+
+```> topfeatures(dfm_a2, 20)
+        us     people   covid-19        age       1920    million      gains   economic       also   increase 
+        17          9          8          7          6          6          6          6          6          6 
+      just population         70   pandemic      world    society      aging   measures     social      young 
+         5          5          5          5          5          5          5          5          5          5 
+```
+
+
+
 
 
