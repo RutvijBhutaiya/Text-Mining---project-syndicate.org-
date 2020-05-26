@@ -223,6 +223,10 @@ But, let's see what's the sentiment analysis says,
 <p align="center"><img width=120% src=https://user-images.githubusercontent.com/44467789/82867505-9dac5500-9f48-11ea-8838-1a4c747311c9.png> 
   
 
+Based on the sentiment analysis, we can say that Kaushik Basu article reflects positivity, but at the same time he is also negative and fearful. On the other hand, Andrew's article has significant positivity. 
+
+<br>
+
 
 
 
