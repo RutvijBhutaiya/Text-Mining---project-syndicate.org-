@@ -216,6 +216,13 @@ And Andrew Scoot's term frequency is 
          5          5          5          5          5          5          5          5          5          5 
 ```
 
+Based on the TF- IDF analysis we can say that Kaushik Basu frequently used terms people and risks in his articles, where, Andrew is trying to convey a message from 1920 - the great depreciation. 
+
+But, let's see what's the sentiment analysis says,
+
+<p align="center"><img width=120% src=https://user-images.githubusercontent.com/44467789/82867505-9dac5500-9f48-11ea-8838-1a4c747311c9.png> 
+  
+
 
 
 
