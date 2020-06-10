@@ -20,7 +20,7 @@ For the study, we specifically only chose Artiles related to the COVID19 topic -
 - [Study Approach](#study-approach)
 - [Study 1](#study-1)
 - [Study 2](#study-2)
-- [Study 3](#study-3)
+- [Study 3](#study-3) 
 
 
 <br>
